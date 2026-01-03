@@ -20,6 +20,7 @@ class Solution {
     }
 
     public List<List<Integer>> permute(int[] nums) {
+        System.out.println("test 7");
         List<List<Integer>> solutions = new ArrayList<>();
         List<Integer> solution = new ArrayList<>();
         add(nums, solution, solutions, nums.length, -1);
